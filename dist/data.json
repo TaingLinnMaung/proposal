@@ -2,21 +2,21 @@
   "questions": [
     {
       "text": "Do you think we make a pretty cute pair?",
-      "sticker": "assets/sticker-heart.svg",
+      "sticker": "assets/question1.gif",
       "hint": "Be honest... but be gentle.",
       "yesLabel": "Yes!",
       "noLabel": "No"
     },
     {
       "text": "Would you go on a little adventure with me?",
-      "sticker": "assets/sticker-adventure.svg",
+      "sticker": "assets/question2.gif",
       "hint": "There is only one right answer here.",
       "yesLabel": "Absolutely!",
       "noLabel": "No"
     },
     {
       "text": "So... will you be my person?",
-      "sticker": "assets/sticker-love.svg",
+      "sticker": "assets/question3.gif",
       "hint": "Take your time. (But say yes.)",
       "yesLabel": "Yes!",
       "noLabel": "No"

@@ -16,7 +16,7 @@ function App() {
   const noButtonRef = useRef(null);
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then((response) => {
         if (!response.ok) throw new Error("Could not load data.json");
         return response.json();
@@ -113,7 +113,7 @@ function App() {
         <p className="mb-[18px] text-[.78rem] font-bold uppercase tracking-[.12em] text-[#9c7182]">A tiny question for you <span className="text-base text-[#ef7095]">♡</span></p>
         <div className="mx-auto mb-7 h-1 w-[min(210px,60%)] overflow-hidden rounded-full bg-[#ef7095]/15"><span className="block h-full rounded-full bg-[#ef7095] transition-all duration-500" style={{ width: `${((questionIndex + 1) / data.questions.length) * 100}%` }} /></div>
         <div className="rounded-[30px] border border-white/80 bg-white/75 px-4 py-6 shadow-[0_20px_70px_rgba(189,108,133,.15)] backdrop-blur sm:px-6 sm:py-8">
-          <div className="mx-auto mb-[18px] grid h-32 w-32 place-items-center rounded-full bg-[#fff0f4] shadow-[inset_0_0_0_9px_rgba(255,255,255,.7)] sm:h-[146px] sm:w-[146px]"><img className="h-24 w-24 object-contain sm:h-28 sm:w-28" src={`/${question.sticker}`} alt={`Illustration for question ${questionIndex + 1}`} /></div>
+          <div className="mx-auto mb-[18px] grid h-32 w-32 place-items-center rounded-full bg-[#fff0f4] shadow-[inset_0_0_0_9px_rgba(255,255,255,.7)] sm:h-[146px] sm:w-[146px]"><img className="h-24 w-24 object-contain sm:h-28 sm:w-28" src={`${import.meta.env.BASE_URL}${question.sticker.replace(/^\/+/, "")}`} alt={`Illustration for question ${questionIndex + 1}`} /></div>
           <p className="mb-2.5 text-[.77rem] font-bold uppercase tracking-[.1em] text-[#ef7095]">Question {questionIndex + 1} of {data.questions.length}</p>
           <h1 className="mx-auto min-h-[2.4em] max-w-[470px] font-[Pacifico] text-[clamp(1.8rem,6vw,2.65rem)] leading-tight font-normal">{question.text}</h1>
           <p className="mt-[13px] min-h-6 text-[.88rem] text-[#9c7182]">{noClicks && questionIndex === 1 ? tooltip : question.hint}</p>
