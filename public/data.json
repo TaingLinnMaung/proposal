@@ -1,21 +1,21 @@
 {
   "questions": [
     {
-      "text": "Do you think we make a pretty cute pair?",
+      "text": "ပြန်ချစ်ပါတော့လား နွေးထွေးပေးချင်ပြီ...🌿💚",
       "sticker": "assets/question1.gif",
       "hint": "Be honest... but be gentle.",
       "yesLabel": "Yes!",
       "noLabel": "No"
     },
     {
-      "text": "Would you go on a little adventure with me?",
+      "text": "အတည်ပြန်ချစ်တော့နော် အများကြီးချစ်ပေးမှာပါ...🥺🥺",
       "sticker": "assets/question2.gif",
       "hint": "There is only one right answer here.",
       "yesLabel": "Absolutely!",
       "noLabel": "No"
     },
     {
-      "text": "So... will you be my person?",
+      "text": "ဒါဆိုရင် ဖိတ်စာသွားရိုတ်လိုက်တော့မယ်နော်💚",
       "sticker": "assets/question3.gif",
       "hint": "Take your time. (But say yes.)",
       "yesLabel": "Yes!",
@@ -23,16 +23,15 @@
     }
   ],
   "noMessages": [
-    "Hmm, try that again?",
-    "That button seems a little shy.",
-    "Nope, not over there either!",
-    "I am beginning to suspect you mean yes.",
-    "The Yes button is right there ♡"
+    "ပြန်ချစ်လိုက်ပါတော့",
+    "ပိစိလေးတောင်မချစ်ဘူးလား",
+    "ပြန်ချစ်ပါနော်",
+    "မငြင်းပါနဲ့"
   ],
   "letter": {
-    "envelopeLabel": "For you",
-    "title": "You made my day!",
-    "message": "Thank you for saying yes.\nI cannot wait for all the tiny adventures, big laughs, and sweet memories ahead of us.",
-    "signature": "With all my heart ♡"
+    "envelopeLabel": "သို / ချစ်ရပါသော",
+    "title": "",
+    "message": "ကိုယ့်အတွက်တော့ ဒီကမ္ဘာပေါ်မှာ အလှပဆုံးနဲ့ အဓိပ္ပါယ်အရှိဆုံးအချိန်တွေက မင်းနဲ့အတူရှိနေရတဲ့အချိန်တွေပါပဲ။  တစ်ရက်ထက် တစ်ရက် ပိုပြီးရင်းနှီးလာလေ၊ မင်းလေးပေါ်ထားတဲ့ ကိုယ့်ရဲ့ခံစားချက်တွေက ပိုပြီးကြီးမားလာလေပါကွာ",
+    "signature": "ကိုယ့်ကိုချစ်ခွင့်ပြုပါတော့နော်"
   }
 }
