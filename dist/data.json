@@ -4,22 +4,22 @@
       "text": "ပြန်ချစ်ပါတော့လား နွေးထွေးပေးချင်ပြီ...🌿💚",
       "sticker": "assets/question1.gif",
       "hint": "Be honest... but be gentle.",
-      "yesLabel": "Yes!",
-      "noLabel": "No"
+      "yesLabel": "ဟုတ်",
+      "noLabel": "ဟင့်အင်း"
     },
     {
       "text": "အတည်ပြန်ချစ်တော့နော် အများကြီးချစ်ပေးမှာပါ...🥺🥺",
       "sticker": "assets/question2.gif",
       "hint": "There is only one right answer here.",
-      "yesLabel": "Absolutely!",
-      "noLabel": "No"
+      "yesLabel": "ဟုတ်",
+      "noLabel": "ဟင့်အင်း"
     },
     {
       "text": "ဒါဆိုရင် ဖိတ်စာသွားရိုတ်လိုက်တော့မယ်နော်💚",
       "sticker": "assets/question3.gif",
       "hint": "Take your time. (But say yes.)",
-      "yesLabel": "Yes!",
-      "noLabel": "No"
+     "yesLabel": "ဟုတ်",
+      "noLabel": "ဟင့်အင်း"
     }
   ],
   "noMessages": [
