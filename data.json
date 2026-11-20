@@ -1,0 +1,38 @@
+{
+  "questions": [
+    {
+      "text": "Do you think we make a pretty cute pair?",
+      "sticker": "assets/sticker-heart.svg",
+      "hint": "Be honest... but be gentle.",
+      "yesLabel": "Yes!",
+      "noLabel": "No"
+    },
+    {
+      "text": "Would you go on a little adventure with me?",
+      "sticker": "assets/sticker-adventure.svg",
+      "hint": "There is only one right answer here.",
+      "yesLabel": "Absolutely!",
+      "noLabel": "No"
+    },
+    {
+      "text": "So... will you be my person?",
+      "sticker": "assets/sticker-love.svg",
+      "hint": "Take your time. (But say yes.)",
+      "yesLabel": "Yes!",
+      "noLabel": "No"
+    }
+  ],
+  "noMessages": [
+    "Hmm, try that again?",
+    "That button seems a little shy.",
+    "Nope, not over there either!",
+    "I am beginning to suspect you mean yes.",
+    "The Yes button is right there ♡"
+  ],
+  "letter": {
+    "envelopeLabel": "For you",
+    "title": "You made my day!",
+    "message": "Thank you for saying yes.\nI cannot wait for all the tiny adventures, big laughs, and sweet memories ahead of us.",
+    "signature": "With all my heart ♡"
+  }
+}
